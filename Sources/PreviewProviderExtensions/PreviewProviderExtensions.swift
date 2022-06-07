@@ -41,7 +41,7 @@ extension ColorScheme {
 }
 
 @available(iOS 13.0, *)
-extension View {
+public extension View {
     func previewAsScreen() -> some View {
         ScreenPreview(screen: self)
     }
