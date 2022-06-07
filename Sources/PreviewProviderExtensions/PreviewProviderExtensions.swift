@@ -1,12 +1,5 @@
 import SwiftUI
 
-public struct PreviewProviderExtensions {
-    public private(set) var text = "Hello, World!"
-
-    public init() {
-    }
-}
-
 @available(iOS 13.0, *)
 struct ScreenPreview<Screen: View>: View {
     var screen: Screen
